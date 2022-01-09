@@ -1,13 +1,10 @@
 package com.example.samplespringboot.shapes;
 
-import com.example.samplespringboot.shapes.Circle;
-import com.example.samplespringboot.shapes.Pencil;
-import com.example.samplespringboot.shapes.Rectangle;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
 
-@Component
+@Configuration
 public class ShapeFactory {
 
     @Bean("default")
